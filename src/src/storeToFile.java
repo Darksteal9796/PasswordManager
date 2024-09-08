@@ -22,6 +22,7 @@ public class storeToFile {
         catch (IOException e)
         {
             System.out.println("An error occured !" + e);
+            System.out.println("Please try again!");
         }
     }
         static void writefile(String s) throws IOException{
